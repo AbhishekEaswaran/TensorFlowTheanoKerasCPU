@@ -21,7 +21,9 @@ conda install theano pygpu
 
 # Keras
 
+source activate tensorflow/theano_env
 
+conda install keras
 
 # Notes
 
@@ -31,4 +33,8 @@ conda install theano pygpu
 
 - python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
 
-2. 
+2. In Theano environment :
+
+- conda install jupyter 
+
+- python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
